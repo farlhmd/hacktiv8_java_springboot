@@ -17,5 +17,7 @@ public class SwitchBaru {
             }
         };
         System.out.println(hasil);
+
+        
     }
 }
