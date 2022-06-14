@@ -1,6 +1,5 @@
-/**
- * switchLama
- */
+package day_1;
+
 public class SwitchLama{
 
     public static void main(String[] args) {
