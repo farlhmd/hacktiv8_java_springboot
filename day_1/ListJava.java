@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 
 public class ListJava{
+    public static LinkedList<String> listPertama;
+
     public static void main(String[] args) {
         //When To Use
         //Use an ArrayList for storing and accessing data, and LinkedList to manipulate data.
