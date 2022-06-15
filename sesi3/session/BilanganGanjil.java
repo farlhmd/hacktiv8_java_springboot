@@ -1,4 +1,4 @@
-package sesi3;
+package sesi3.session;
 
 public class BilanganGanjil {
     public static void main(String[] args) {

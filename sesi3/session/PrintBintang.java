@@ -1,4 +1,4 @@
-package sesi3;
+package sesi3.session;
 
 import java.util.Scanner;
 

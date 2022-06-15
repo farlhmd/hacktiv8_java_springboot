@@ -1,4 +1,4 @@
-package sesi3;
+package sesi3.session;
 
 import java.util.Scanner;
 
@@ -15,6 +15,7 @@ public class Latihan {
         System.out.println("A. Menampilkan Bintang");
         System.out.println("B. Menampilkan Nilai 1-10");
         System.out.println("C. Menampilkan Bilangan Ganjil");
+        System.out.println("D. Exit");
         inputanUser = scan.nextLine();
 
         switch (inputanUser) {
@@ -27,7 +28,11 @@ public class Latihan {
             case "c", "C":
                 BilanganGanjil();
                 break;
+            case "d", "D":
+                System.out.println("Terima kasih telah menggunakan program ini.");
+                break;
             default:
+                System.out.println("Inputan salah. silahkan pilih 'a', 'b, 'c' atau 'd'");
                 MainMenu();
                 break;
         }
@@ -41,8 +46,8 @@ public class Latihan {
         System.out.print("Ingin menampilkan angka ganjil dari 1 hingga berapa? ");
         nilaiDitampilkan = inputanUser.nextInt();
 
-        for (int i = 1; i <= nilaiDitampilkan ; i++) {
-            if (i%2 == 1) {
+        for (int i = 1; i <= nilaiDitampilkan; i++) {
+            if (i % 2 == 1) {
                 System.out.print(i + " ");
             }
         }
@@ -75,10 +80,9 @@ public class Latihan {
         for (int i = 0; i < tinggiBintang; i++) {
             System.out.println("");
             for (int j = 0; j < lebarBintang; j++) {
-            System.out.print("*");
+                System.out.print("*");
             }
         }
         inputanUser.close();
-        }
     }
-
+}
