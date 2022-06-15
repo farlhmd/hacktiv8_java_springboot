@@ -16,7 +16,7 @@ public class PrintBintang {
         for (int i = 0; i < tinggiBintang; i++) {
             System.out.print("\n");
             for (int j = 0; j < lebarBintang; j++) {
-            System.out.print("*");
+                System.out.print("*");
             }
         }
 
