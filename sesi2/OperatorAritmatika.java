@@ -7,20 +7,21 @@ public class OperatorAritmatika {
         int angka1, angka2, hasil;
         String operatorDigunakan, pilihanOperator;
 
-        Scanner inputanAngka = new Scanner(System.in);
-        Scanner inputanOperator = new Scanner(System.in);
+        Scanner inputanUser = new Scanner(System.in);
 
         System.out.println("Input angka pertama: ");
-        angka1 = inputanAngka.nextInt();
+        angka1 = inputanUser.nextInt();
+        
         System.out.println("Input angka kedua: ");
-        angka2 = inputanAngka.nextInt();
+        angka2 = inputanUser.nextInt();
 
         System.out.println("Silahkan pilih Operator:");
         System.out.println("a. Penjumlahan");
         System.out.println("b. Pengurangan");
         System.out.println("c. Perkalian");
         System.out.println("d. Pembagian");
-        pilihanOperator = inputanOperator.nextLine();
+        pilihanOperator = inputanUser.next();
+        inputanUser.close();
 
         switch (pilihanOperator) {
             case "a", "A":
