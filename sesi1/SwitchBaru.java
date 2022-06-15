@@ -1,4 +1,4 @@
-package day_1;
+package sesi1;
 
 public class SwitchBaru {
     public static void main(String[] args) {

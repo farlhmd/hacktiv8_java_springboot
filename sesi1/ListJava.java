@@ -1,4 +1,4 @@
-package day_1;
+package sesi1;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
