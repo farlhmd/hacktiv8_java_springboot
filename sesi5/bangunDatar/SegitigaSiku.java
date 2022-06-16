@@ -1,4 +1,4 @@
-package sesi5;
+package sesi5.bangunDatar;
 
 public class SegitigaSiku extends BangunDatar {
     float alas, tinggi;

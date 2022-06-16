@@ -1,23 +1,21 @@
 package sesi5;
 
 public class ClassMobil {
+   static String pedalRem = "criit";
+   static String pedalGas = "brrr";
+   static String mesin = "rrhmm";
+
    public static void main(String[] args) {
-      var merk = "";
-      var manufaktur = "";
-      var mesin = "";
-
-      pintuDibuka();
-      mesinDiGas();
+      gasDitekan();
       remDitekan();
-
    }
 
    private static void remDitekan() {
+      System.out.println("Rem ditekan, " + pedalRem);
    }
 
-   private static void mesinDiGas() {
+   private static void gasDitekan() {
+      System.out.println("Gas ditekan, goes " + pedalGas);
    }
 
-   private static void pintuDibuka() {
-   }
 }
