@@ -1,4 +1,4 @@
-package sesi5.polymorphism;
+package sesi5;
 
 abstract class Manusia {
     protected abstract void nyanyiLagu();
@@ -18,7 +18,7 @@ class Cewek extends Manusia{
     }
 }
 
-public class Cetak{
+public class CetakManusia{
     public static void main(String[] args) {
         Manusia cowok = new Cowok();
         cowok.nyanyiLagu();
