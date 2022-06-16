@@ -12,11 +12,11 @@ public static void main(String[] args) {
     int menu = 1, r=1, a;
 
     while(menu!=3){
-        System.out.println("1.input\n2.view\n3.exit\nMasukkan Pilihan: ");
-        menu = tr.inputanUser.nextInt();
+        System.out.print("1.input\n2.view\n3.exit\nMasukkan Pilihan: ");
+        menu = tree.inputanUser.nextInt();
         if(menu==1){
             System.out.print("Masukkan Angka: ");
-            a = tr.inputanUser.nextInt();
+            a = tree.inputanUser.nextInt();
             if (r==1) {
                 root.input(a);
                 r--;

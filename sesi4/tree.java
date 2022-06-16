@@ -23,15 +23,37 @@ public class tree {
         }
     }
     public void view(node a){
-        System.out.print("Pre Order: ");
+        System.out.print("\npreOrder  : ");
         preOrder(a);
-        System.out.print(" ");
+        System.out.println(" ");
+
+        System.out.print("inOrder   : ");
+        inOrder(a);
+        System.out.println(" ");
+
+        System.out.print("postOrder : ");
+        postOrder(a);
+        System.out.println(" ");
     }
     public void preOrder(node a){
         if(a!=null){
             System.out.print(a.value + " ");
             preOrder(a.left);
             preOrder(a.right);
+        }
+    }
+    public void inOrder(node a){
+        if (a != null) {
+            inOrder(a.left);
+            System.out.print(a.value + " ");
+            inOrder(a.right);
+        }
+    }
+    public void postOrder(node a){
+        if(a!=null){
+            postOrder(a.left);
+            postOrder(a.right);
+            System.out.print(a.value + " ");
         }
     }
 }
