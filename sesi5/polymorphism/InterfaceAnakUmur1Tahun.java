@@ -1,7 +1,7 @@
 package sesi5.polymorphism;
 
-public interface AktifitasPagi {
+public interface InterfaceAnakUmur1Tahun {
     void ngapain();
-
+    
     void sukaApa();
 }
