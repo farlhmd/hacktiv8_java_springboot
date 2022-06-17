@@ -12,10 +12,12 @@ public class Latihan4 {
         System.out.print("Silahkan menginput tahun yang ingin di cek: ");
         tahunDiinput = inputanUser.nextInt();
 
+        //mengecek apakah tahun yang diinput habis jika dibagi 4.
         if (tahunDiinput % 4 == 0) {
             kabisatKah = true;
         }
 
+        // menampilkan tahun kabisat atau bukan.
         if (kabisatKah) {
             System.out.println("Tahun " + tahunDiinput + " merupakan tahun kabisat");
         } else {
