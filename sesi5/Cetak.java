@@ -15,6 +15,6 @@ public class Cetak {
 
     public static void main(String[] args) {
         System.out.println(maxNumber(10, 20));
-        //System.out.print(maxNumber(4,5,7,5));
+        System.out.print(maxNumber(4.5,7.5));
     }
 }

@@ -1,1 +1,3 @@
-1. Bangun datar
+Di sesi 5 ini dipelajari:
+~ Polimorphism
+~ Inheritance

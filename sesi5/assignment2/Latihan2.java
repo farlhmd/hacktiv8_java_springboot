@@ -22,10 +22,12 @@ public class Latihan2 {
         for (int i = 0; i < barisPanjang; i++) {
             for (int j = 0; j < barisLebar; j++) {
                 System.out.print("Siswa yang akan ditempatkan di barisan (" + i + "," + j + "): ");
-                siswaBaru = inputanUser.nextLine();
+                siswaBaru = inputanUser.next();
                 siswa[i][j] = siswaBaru;
             }
         }
+
+        //pake
 
         // cetak urutan bangku sesuai ketentuan soal.
         System.out.println("\nUrutan yang dihasilkan sebagai berikut:");
