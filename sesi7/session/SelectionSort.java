@@ -7,7 +7,6 @@ public class SelectionSort {
         try (Scanner scan = new Scanner(System.in)) {
             int x, y;
 
-            System.out.println("------------------------------------------------------------");
             System.out.print("Masukan jumlah data : ");
             int jumData = scan.nextInt();
             
@@ -20,14 +19,12 @@ public class SelectionSort {
                 
             }
             scan.close();
-            // Tampilan data sebelum sorting
             System.out.println();
             System.out.println("Data sebelum disorting : ");
             for (x = 0; x < jumData; x++) {
                 System.out.print(data[x] + " ");
             }
-
-            // Proses selection sort
+            
             System.out.println("\n\nProses Selection Sort");
             for (x = 0; x < jumData; x++) {
                 System.out.print("Iterasi ke-" + (x + 1) + " : ");
