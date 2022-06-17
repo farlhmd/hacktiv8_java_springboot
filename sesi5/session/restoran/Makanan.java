@@ -1,4 +1,4 @@
-package sesi5.restoran;
+package sesi5.session.restoran;
 
 public class Makanan {
     public static void main(String[] args) {

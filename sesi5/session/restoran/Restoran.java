@@ -1,4 +1,4 @@
-package sesi5.restoran;
+package sesi5.session.restoran;
 
 public class Restoran {
     private String menu;

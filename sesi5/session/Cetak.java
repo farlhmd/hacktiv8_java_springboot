@@ -1,4 +1,4 @@
-package sesi5;
+package sesi5.session;
 
 public class Cetak {
     static double maxNumber(double a, double b) {

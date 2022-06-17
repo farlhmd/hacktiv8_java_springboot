@@ -1,4 +1,4 @@
-package sesi5;
+package sesi5.session;
 
 public class Nilai {
     int num1, num2;

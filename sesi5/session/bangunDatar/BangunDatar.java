@@ -1,4 +1,4 @@
-package sesi5.bangunDatar;
+package sesi5.session.bangunDatar;
 
 public class BangunDatar {
 

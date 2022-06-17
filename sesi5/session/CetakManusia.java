@@ -1,4 +1,4 @@
-package sesi5;
+package sesi5.session;
 
 abstract class Manusia {
     protected abstract void nyanyiLagu();

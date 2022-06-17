@@ -1,4 +1,4 @@
-package sesi5.polymorphism;
+package sesi5.session.polymorphism;
 
 public class parent {
     public String namaAnak = "Joko";
