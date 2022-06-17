@@ -1,4 +1,4 @@
-package sesi7;
+package sesi7.session;
 
 public class Binary {
 
