@@ -7,3 +7,7 @@ Pada sesi ini dipelajari bagaimana menggunakan Multithreading dan Synchronized
 
 2. Synchronized
     Ini adalah sebuah metode untuk menjaga output dari multithreading tetap tersusun secara urut.
+
+
+Selain itu, juga dilakukan migrasi dari VsCode ke Eclipse dengan command: "mvn eclipse:eclipse"
+Command untuk membuat folder unit testing: "mvn archetype:generate -DgroupId=com.learning.thread -DartifactId=DemoThread -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false"
