@@ -40,6 +40,27 @@ public class MyHandler extends DefaultHandler {
     }
 
     @Override
+    public void characters(char[] ch, int start, int length) throws SAXException {
+
+        if (bfn) {
+            user.setName(new String(ch, start, length));
+            bfn = false;
+        }
+
+        if (bln) {
+            user.setGender(new String(ch, start, length));
+            bln = false;
+        }
+
+        if (boc) {
+            user.setRole(new String(ch, start, length));
+            boc = false;
+        }
+    }
+
+
+
+    @Override
     public void endElement(String uri, String localName, String qName) throws SAXException{
         if ("user".equals(qName)) {
             users.add(user);

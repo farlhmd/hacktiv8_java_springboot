@@ -2,34 +2,54 @@ package com.learning.thread;
 
 public class User {
     int id;
-    private String Name, Gender, Role;
+    private String name, gender, role;
 
-    public User(){
+    public User() {
 
     }
 
-    public int getId(){
+    public int getId() {
         return id;
     }
-    public void setId(int id){
+
+    public void setId(int id) {
         this.id = id;
     }
-    public String getName(){
-        return Name;
+
+    public String getName() {
+        return name;
     }
-    public void setName(String Name){
-        this.Name = Name;
+
+    public void setName(String name) {
+        this.name = name;
     }
-    public String getGender(){
-        return Gender;
+
+    public String getGender() {
+        return gender;
     }
-    public void setGender(String Gender){
-        this.Gender = Gender;
+
+    public void setGender(String gender) {
+        this.gender = gender;
     }
-    public String getRole(){
-        return Role;
+
+    public String getRole() {
+        return role;
     }
-    public void setRole(String Role){
-        this.Role = Role;
+
+    public void setRole(String role) {
+        this.role = role;
     }
+
+    @Override
+    public String toString() {
+
+        StringBuilder builder = new StringBuilder();
+        builder.append("User{").append("id=").append(id)
+                .append(", name=").append(name)
+                .append(", gender=").append(gender)
+                .append(", role=").append(role).append("}");
+
+        return builder.toString();
+    }
+
 }
