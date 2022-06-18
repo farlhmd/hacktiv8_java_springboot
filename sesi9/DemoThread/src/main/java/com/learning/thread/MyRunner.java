@@ -30,7 +30,7 @@ public class MyRunner {
     public List<User> parseUsers() {
 
         MyHandler handler = new MyHandler();
-        String fileName = "src/res/Users.xml";
+        String fileName = "src/main/resources/users.xml";
         File xmlDocument = Paths.get(fileName).toFile();
 
         try {
