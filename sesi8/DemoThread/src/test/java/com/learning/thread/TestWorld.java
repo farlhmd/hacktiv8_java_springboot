@@ -1,14 +1,19 @@
 package com.learning.thread;
 
+import org.junit.Test;
+
 public class TestWorld {
+	
     public TestWorld(){
         
     }
-    public static void testRun(){
+    
+    @Test
+    public void testRun(){
         for (int i = 0; i < 5; i++) {
-            ThreadWorld instance = new ThreadWorld();
+            ThreadWorld instance = new ThreadWorld("");
             
-            instance.setName("" + i);
+            instance.setName(String.valueOf(i));
             instance.start();
         }
     }
