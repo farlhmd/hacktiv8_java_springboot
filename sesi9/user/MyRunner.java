@@ -1,5 +1,8 @@
-package sesi9.user.src;
+package sesi9.user;
 
+import java.io.File;
+import java.io.IOException;
+import java.nio.file.Paths;
 import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -11,7 +14,7 @@ import javax.xml.parsers.SAXParserFactory;
 import org.xml.sax.SAXException;
 
 public class MyRunner {
-    private SAXParser createSaxParser(){
+    private SAXParser createSaxParser() {
         SAXParser saxParser = null;
 
         try {
@@ -23,11 +26,22 @@ public class MyRunner {
         }
         return saxParser;
     }
-    // public List<User> parseUsers(){
 
-    //     MyHandler handler = new MyHandler();
-    //     String fileName = "sesi9/user/users.xml";
+    public List<User> parseUsers() {
 
-    //     return handler.getUsers();
-    // }
+        MyHandler handler = new MyHandler();
+        String fileName = "sesi9/res/users.xml";
+        File xmlDocument = Paths.get(fileName).toFile();
+
+        try {
+
+            SAXParser parser = createSaxParser();
+            parser.parse(xmlDocument, handler);
+
+        } catch (SAXException | IOException ex) {
+            Logger lgr = Logger.getLogger(MyRunner.class.getName());
+            lgr.log(Level.SEVERE, ex.getMessage(), ex);
+        }
+        return handler.getUsers();
+    }
 }

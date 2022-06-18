@@ -1,4 +1,4 @@
-package sesi9.user.src;
+package com.learning.thread;
 
 public class User {
     int id;
