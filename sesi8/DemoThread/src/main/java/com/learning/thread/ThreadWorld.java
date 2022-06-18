@@ -21,5 +21,4 @@ public class ThreadWorld extends Thread {
         }
     }
 
-
 }
