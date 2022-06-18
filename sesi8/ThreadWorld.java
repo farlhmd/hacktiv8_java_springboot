@@ -1,4 +1,4 @@
-package sesi8.session.Multithread;
+package sesi8;
 
 import java.util.logging.Level;
 import java.util.logging.Logger;

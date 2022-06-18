@@ -1,4 +1,4 @@
-package sesi8.session.Synchronized;
+package sesi8;
 
 import java.util.Random;
 

@@ -1,4 +1,4 @@
-package sesi8.session.Synchronized;
+package sesi8;
 
 public class ThreadNumber extends Thread {
     private final NumberGenerator ng;
@@ -19,8 +19,7 @@ public class ThreadNumber extends Thread {
         }
         }
     }
-
-
+    //@Test
     public static void testRun() {
         NumberGenerator generator = new NumberGenerator(1000, 2000);
         for (int i = 0; i < 3; i++) {

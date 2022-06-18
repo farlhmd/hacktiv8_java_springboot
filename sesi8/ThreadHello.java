@@ -1,4 +1,4 @@
-package sesi8.session.Multithread;
+package sesi8;
 
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -22,11 +22,15 @@ public class ThreadHello implements Runnable{
         
     }
 
-    // public static void jalankanRun(){
-    //     ThreadHello gas = new ThreadHello();
-    // }
-    public static void main(String[] args) {
-        
+    // @Test
+
+    public void testRun(){
+        for (int i = 0; i < 5; i++) {
+            ThreadHello instance = new ThreadHello(String.valueOf(i));
+            Thread t = new Thread(instance);
+            t.start();
+        }
     }
+
     
 }

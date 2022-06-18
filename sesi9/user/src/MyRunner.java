@@ -23,11 +23,11 @@ public class MyRunner {
         }
         return saxParser;
     }
-    public List<User> parseUsers(){
+    // public List<User> parseUsers(){
 
-        MyHandler handler = new MyHandler();
-        String fileName = "sesi9/user/users.xml";
+    //     MyHandler handler = new MyHandler();
+    //     String fileName = "sesi9/user/users.xml";
 
-        return handler.getUsers();
-    }
+    //     return handler.getUsers();
+    // }
 }
