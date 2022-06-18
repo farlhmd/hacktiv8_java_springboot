@@ -2,7 +2,7 @@ package com.learning.thread;
 
 import org.junit.Test;
 
-public class TestThread implements Runnable{
+public class TestThread extends Thread{
     public TestThread(){
 
     }
