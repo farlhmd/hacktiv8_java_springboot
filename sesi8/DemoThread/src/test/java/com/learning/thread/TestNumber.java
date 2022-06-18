@@ -4,9 +4,6 @@ import org.junit.Test;
 
 public class TestNumber {
 
-    public TestNumber() {
-
-    }
     @Test
     public void testRun() {
         NumberGenerator generator = new NumberGenerator(1000, 2000);

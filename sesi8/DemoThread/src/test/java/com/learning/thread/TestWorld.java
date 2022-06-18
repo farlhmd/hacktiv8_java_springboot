@@ -3,10 +3,7 @@ package com.learning.thread;
 import org.junit.Test;
 
 public class TestWorld {
-	
-    public TestWorld(){
-        
-    }
+
     
     @Test
     public void testRun(){
