@@ -1,4 +1,4 @@
-package com.learning.thread;
+package sesi9.user;
 
 import java.io.File;
 import java.io.IOException;
@@ -30,7 +30,7 @@ public class MyRunner {
     public List<User> parseUsers() {
 
         MyHandler handler = new MyHandler();
-        String fileName = "src/resources/users.xml";
+        String fileName = "sesi9/res/users.xml";
         File xmlDocument = Paths.get(fileName).toFile();
 
         try {
