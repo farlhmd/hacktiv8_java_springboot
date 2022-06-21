@@ -12,7 +12,7 @@ public class MyHandler extends DefaultHandler {
     private List<UserModel> users = new ArrayList<>();
     private UserModel user;
 
-    private boolean bfn = false;
+   // private boolean bfn = false;
     private boolean bln = false;
     private boolean boc = false;
 
@@ -25,9 +25,9 @@ public class MyHandler extends DefaultHandler {
             user.setId(id);
         }
         switch (qName) {
-            case "name":
-                bfn = true;
-                break;
+            // case "name":
+            //     bfn = true;
+            //     break;
 
             case "firstname":
                 bln = true;
@@ -42,10 +42,10 @@ public class MyHandler extends DefaultHandler {
     @Override
     public void characters(char[] ch, int start, int length) throws SAXException {
 
-        if (bfn) {
-            user.setName(new String(ch, start, length));
-            bfn = false;
-        }
+        // if (bfn) {
+        //     user.setName(new String(ch, start, length));
+        //     bfn = false;
+        // }
 
         if (bln) {
             user.setFirstName(new String(ch, start, length));

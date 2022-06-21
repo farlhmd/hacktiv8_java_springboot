@@ -2,7 +2,8 @@ package com.learning.challenge;
 
 public class UserModel {
     int id;
-    private String name, firstName, lastName;
+    private String firstName, lastName;
+    //private String name;
 
     public UserModel() {
 
@@ -16,13 +17,13 @@ public class UserModel {
         this.id = id;
     }
 
-    public String getName() {
-        return name;
-    }
+    // public String getName() {
+    //     return name;
+    // }
 
-    public void setName(String name) {
-        this.name = name;
-    }
+    // public void setName(String name) {
+    //     this.name = name;
+    // }
 
     public String getFirstName() {
         return firstName;
