@@ -26,7 +26,7 @@ public class UserController {
 
 	@CrossOrigin
 	@GetMapping("/users/{id}")
-	public ResponseEntity<User> users(@PathVariable Integer id) {
+	public ResponseEntity<User> users(@PathVariable int id) {
 		try {
 			User user = userService.getUser(id);
 			return new ResponseEntity<User>(user, HttpStatus.OK);
@@ -37,13 +37,14 @@ public class UserController {
 
 	@CrossOrigin
 	@PostMapping("/users")
-	public void users(@RequestBody User user) {
+	public ResponseEntity<?> users(@RequestBody User user) {
 		userService.saveUser(user);
+		return new ResponseEntity<>("Berhasil Simpan Data User: " + user.getFirstName(), HttpStatus.OK);
 	}
 
 	@CrossOrigin
 	@PutMapping("/users/{id}")
-	public ResponseEntity<?> update(@RequestBody User user, @PathVariable Integer id) {
+	public ResponseEntity<?> update(@RequestBody User user, @PathVariable int id) {
 		try {
 			User existUser = userService.getUser(id);
 			if (existUser.getId() != id) {
@@ -51,7 +52,7 @@ public class UserController {
 			}
 			user.setId(id);
 			userService.saveUser(user);
-			return new ResponseEntity<>(HttpStatus.OK);
+			return new ResponseEntity<>("Data "+ user.getFirstName() + " berhasil di update", HttpStatus.OK);
 		} catch (NoSuchElementException e) {
 			return new ResponseEntity<>(HttpStatus.NOT_FOUND);
 		}
@@ -59,7 +60,7 @@ public class UserController {
 
 	@CrossOrigin
 	@DeleteMapping("/users/{id}")
-	public void delete(@PathVariable Integer id) {
+	public void delete(@PathVariable int id) {
 		userService.deleteUser(id);
 	}
 
