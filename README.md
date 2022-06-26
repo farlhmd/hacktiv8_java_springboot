@@ -55,7 +55,17 @@ The same goes on MySQL, Maven, etc.
   </tr>
 </table> -->
 
-<div align="left"><(Previous Session)></div><div align="center"><(Back to Main)></div><div align="right"><(Next Session)></div>
+<p style="text-align:center;">
+    <span style="float:right;">
+       (Previous Session)
+    </span>
+    <span style="float:right;">
+       (Back to Main)
+    </span>
+    <span style="float:right;">
+       (Next Session)
+    </span>
+</p>
 
 <!-- <p align="left">(<a href="#top">back to top</a>)</p><p align="center">(<a href="#top">back to top</a>)</p><p align="right">(<a href="#top">back to top</a>)</p> -->
 
