@@ -46,19 +46,14 @@ For MacOs :
 
 The same goes on MySQL, Maven, etc.
 
-<style>
-table, th, td {
-  border: 1px solid black;
-  border-collapse: collapse;
-}
-</style>
-<table align="center" margin=0 border=0>
+
+<table align="center" style="border:0px">
   <tr>
     <td>(Previous Session)</td>
+    <td></td>
     <td>(Back to Main)</td>
-    <td>(Next Session)
     <td></td>
-    <td></td>
+    <td>(Next Session)</td>
   </tr>
 </table>
 
