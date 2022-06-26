@@ -4,7 +4,7 @@
 #### Mentored by: [Arif Setiawan](https://www.github.com/octokatherine)
 
 ## Navigation
-<p align="right">(<a href="#top">back to top</a>)</p>
+
 To help you explore these sessions, just click one of these:
 
 [1. Session 1](https://github.com/farlhmd/hacktiv8_java_springboot/tree/main/src/sesi1) &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp; [7. Session 7](https://github.com/farlhmd/hacktiv8_java_springboot/tree/main/src/sesi7) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp; [13. Session 13](https://github.com/farlhmd/hacktiv8_java_springboot/tree/main/src/sesi13) &nbsp;&nbsp;|&nbsp;&nbsp; [19. Session 19](https://github.com/farlhmd/hacktiv8_java_springboot/tree/main/src/sesi19)\
@@ -47,7 +47,7 @@ For MacOs :
 The same goes on MySQL, Maven, etc.
 
 
-
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 
 
