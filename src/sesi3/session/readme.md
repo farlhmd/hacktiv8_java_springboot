@@ -24,7 +24,7 @@ Dari sini akan di generate file .class
 <table align="center" style="border:none;">
 <tr>
 <td></td>
-<td>(<a href="https://github.com/farlhmd/hacktiv8_java_springboot/tree/main/src/sesi3/assignment1">Assignment 1</a>)</td>
+<td align="center">(<a href="https://github.com/farlhmd/hacktiv8_java_springboot/tree/main/src/sesi3/assignment1">Assignment 1</a>)</td>
 <td></td>
 </tr>
   <tr>
