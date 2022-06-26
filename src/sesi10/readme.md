@@ -1,24 +1,16 @@
-# Java Spring Boot Sesi 8
+# Java Spring Boot Sesi 10
 
 Pada sesi ini dipelajari mengenai:
  
- 1. Multithreading\
-    Merupakan sebuah konsep untuk menjalankan lebih dari satu tugas secara bersamaan dengan cara pararel. Yang akan mempercepat proses penyelesaiannya.
+ 1. Database\
+    a. Relational Database
+    b. Non-Relational Database
 
-2. Synchronized\
-    Ini adalah sebuah metode untuk menjaga output dari multithreading tetap tersusun secara urut.
+## Spesifikasi Database
 
-
-Selain itu, juga dilakukan migrasi dari VSCode ke Eclipse dengan command:
-        
-        mvn eclipse:eclipse
-
-Command untuk membuat folder unit testing: 
-
-        mvn archetype:generate -DgroupId=com.learning.thread -DartifactId=DemoThread -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
 
 ## Running
-Running dilakukan dengan membuka folder (hacktiv8_java_springboot/src/sesi8/DemoThread)\
+Running dilakukan dengan menjalankan server pada\
 Jika menggunakan Eclipse IDE, dapat run dengan:
         
         Klik kanan pom.xml > run as > maven clean > maven install > maven test

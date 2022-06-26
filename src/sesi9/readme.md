@@ -1,4 +1,4 @@
-# Java Spring Boot Sesi 8
+# Java Spring Boot Sesi 9
 
 Pada sesi ini dipelajari mengenai:
  
@@ -11,14 +11,14 @@ Pada sesi ini dipelajari mengenai:
 
 Selain itu, juga dilakukan migrasi dari VSCode ke Eclipse dengan command:
         
-        mvn eclipse:eclipse
+         mvn eclipse:eclipse
 
 Command untuk membuat folder unit testing: 
 
         mvn archetype:generate -DgroupId=com.learning.thread -DartifactId=DemoThread -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
 
 ## Running
-Running dilakukan dengan membuka folder (hacktiv8_java_springboot/src/sesi8/DemoThread)\
+Running dilakukan dengan membuka folder (hacktiv8_java_springboot/src/sesi9/DemoSAX)\
 Jika menggunakan Eclipse IDE, dapat run dengan:
         
         Klik kanan pom.xml > run as > maven clean > maven install > maven test
@@ -39,9 +39,9 @@ Run with test:
 
 <table align="center" style="border:none;">
   <tr>
-    <td>(<a href="https://github.com/farlhmd/hacktiv8_java_springboot/tree/main/src/sesi7">Prev Session</a>)</td>
+    <td>(<a href="https://github.com/farlhmd/hacktiv8_java_springboot/tree/main/src/sesi8">Prev Session</a>)</td>
     <td>(<a href="https://github.com/farlhmd/hacktiv8_java_springboot">Back to Main</a>)</td>
-    <td>(<a href="https://github.com/farlhmd/hacktiv8_java_springboot/tree/main/src/sesi9">Next Session</a>)</td>
+    <td>(<a href="https://github.com/farlhmd/hacktiv8_java_springboot/tree/main/src/sesi10">Next Session</a>)</td>
   </tr>
 </table>
     

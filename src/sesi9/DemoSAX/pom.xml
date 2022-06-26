@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.learning.thread</groupId>
 
-  <artifactId>DemoThread</artifactId>
+  <artifactId>DemoSAX</artifactId>
   <packaging>jar</packaging>
   <version>1.0-SNAPSHOT</version>
 
@@ -40,7 +40,7 @@
             <configuration>
                 <archive>
                     <manifest>
-                        <mainClass>com.learning.thread.App</mainClass>
+                        <mainClass>com.learning.thread.JavaReadXmlSaxEx</mainClass>
                     </manifest>
                 </archive>
             </configuration>
