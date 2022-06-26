@@ -32,7 +32,9 @@
 
 <table align="center" style="border:none;">
     <tr>
+    <td></td>
     <td>(<a href="https://github.com/farlhmd/hacktiv8_java_springboot/tree/main/src/sesi3/session">Session 3</a>)</td>
+    <td></td>
     </tr>
   <tr>
     <td>(<a href="https://github.com/farlhmd/hacktiv8_java_springboot/tree/main/src/sesi2">Prev Session</a>)</td>
