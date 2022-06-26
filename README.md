@@ -47,21 +47,15 @@ For MacOs :
 The same goes on MySQL, Maven, etc.
 
 
-<table cellspacing="0" cellpadding="0" align="center" style="border:none;">
+<!-- <table align="center" style="border:none;">
   <tr>
     <td>(Previous Session)</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
     <td>(Back to Main)</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
     <td>(Next Session)</td>
   </tr>
-</table>
+</table> -->
+
+<div align="left"><(Previous Session)></div><div align="center"><(Back to Main)></div><div align="right"><(Next Session)></div>
 
 <!-- <p align="left">(<a href="#top">back to top</a>)</p><p align="center">(<a href="#top">back to top</a>)</p><p align="right">(<a href="#top">back to top</a>)</p> -->
 
