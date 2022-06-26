@@ -1,7 +1,7 @@
 
 # Java Spring Boot Course by Hacktiv8
 
-#### Mentored by: [Arif Setiawan](https://www.github.com/octokatherine)
+#### Mentored by: [Arif Setiawan](https://github.com/arifswn)
 
 ## Navigation
 
