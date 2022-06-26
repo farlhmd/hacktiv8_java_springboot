@@ -3,37 +3,49 @@
 Pada sesi ini dipelajari mengenai:
  
  1. Database\
-    a. Relational Database
+    a. Relational Database\
     b. Non-Relational Database
 
 ## Spesifikasi Database
-
+1. MySQL
+2. Xampp 7.4.29
+*catatan: untuk mengupdate schema database dapat dilakukan dengan cara run:
+       
+        /Applications/XAMPP/bin/mysql_upgrade
 
 ## Running
-Running dilakukan dengan menjalankan server pada\
-Jika menggunakan Eclipse IDE, dapat run dengan:
-        
-        Klik kanan pom.xml > run as > maven clean > maven install > maven test
+1. Running dilakukan dengan menjalankan server pada Xampp\
+2. Buka pada browser:
 
-Jika menggunakan VSCode, dapat merunning menggunakan Terminal:\
+        localhost/phpmyadmin
+atau
 
-Update file pom.xml:
+        localhost:8080/phpmyadmin
+atau
 
-        mvn clean
-Compile/install files:
+          127.0.0.1/phpmyadmin
 
-        mvn install
-Run with test:
+### Query Umum
+Buat Database:
 
-        mvn test
+        CREATE DATABASE db_name
+Buat Table:
 
-*Catatan: lengkapi pom.xml dengan dependency yang diperlukan
+        CREATE TABLE tb_name(`col1_name` data_type, `col2_name` data_type)
+Insert Data:
+
+        INSERT INTO `tb_name`(`col1_name`, `col2_name`)
+        VALUES (`col1_data`, `col2_data`)
+
+Menampilkan Data:
+
+        SELECT * from tb_name
 
 <table align="center" style="border:none;">
   <tr>
-    <td>(<a href="https://github.com/farlhmd/hacktiv8_java_springboot/tree/main/src/sesi7">Prev Session</a>)</td>
+    <td>(<a href="https://github.com/farlhmd/hacktiv8_java_springboot/tree/main/src/sesi9">Prev Session</a>)</td>
     <td>(<a href="https://github.com/farlhmd/hacktiv8_java_springboot">Back to Main</a>)</td>
-    <td>(<a href="https://github.com/farlhmd/hacktiv8_java_springboot/tree/main/src/sesi9">Next Session</a>)</td>
+    <td>(<a href="https://github.com/farlhmd/hacktiv8_java_springboot/tree/main/src/sesi11">Next Session</a>)</td>
   </tr>
 </table>
     
