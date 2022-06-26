@@ -1,6 +1,4 @@
-Sesi 7
-
-# Java Spring Boot Sesi 7
+# Java Spring Boot Sesi 8
 
 Pada sesi ini dipelajari mengenai:
  
