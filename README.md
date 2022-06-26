@@ -60,7 +60,7 @@ The same goes on MySQL, Maven, etc.
     <span style="float:right;">
        (Next Session)
     </span>
-</p
+</p>
 
 <!-- <p align="left">(<a href="#top">back to top</a>)</p><p align="center">(<a href="#top">back to top</a>)</p><p align="right">(<a href="#top">back to top</a>)</p> -->
 
