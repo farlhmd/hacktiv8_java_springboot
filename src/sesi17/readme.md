@@ -41,7 +41,7 @@ Run with test:
 <table align="center" style="border:none;">
 <tr>
 <td></td>
-<td>(<a href="https://github.com/farlhmd/hacktiv8_java_springboot/tree/main/src/sesi17/assignment3/SpringTokoApaAja">Assignment 3</a>)</td>
+<td align="readme.md">(<a href="https://github.com/farlhmd/hacktiv8_java_springboot/tree/main/src/sesi17/assignment3/SpringTokoApaAja">Assignment 3</a>)</td>
 <td></td>
 </tr>
   <tr>
