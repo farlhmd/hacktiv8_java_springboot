@@ -1,4 +1,4 @@
-package sesi5.session.polymorphism;
+package src.sesi5.session.polymorphism;
 
 public class Driver {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package sesi5.session.polymorphism;
+package src.sesi5.session.polymorphism;
 
 public class AnakUmur1Tahun extends parent implements AktifitasPagi {
     
