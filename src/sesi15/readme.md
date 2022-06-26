@@ -1,8 +1,9 @@
-# Java Spring Boot Sesi 14
+# Java Spring Boot Sesi 15
 
 Pada sesi ini dipelajari mengenai:
- #### Servlet
- Menjalankan dynamic website dengan java\
+ #### JPA
+ Melakukan query SQL dengan java\
+
 Migrasi dari VSCode ke Eclipse dengan command:
         
          mvn eclipse:eclipse
@@ -12,19 +13,33 @@ Command untuk membuat folder unit testing:
         mvn archetype:generate -DgroupId=com.learning.example -DartifactId=DemoExample -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
 
 ## Running
-Running dilakukan dengan membuka folder (hacktiv8_java_springboot/src/sesi13/TestHibernate)\
-Jika menggunakan Eclipse IDE, dapat run dengan:
+- Running dilakukan dengan membuka folder (hacktiv8_java_springboot/src/sesi13/BelajarSpringJPABook)
+- Jalankan server database dan buat database db_book
+- Lakukan konfigurasi pada (src/main/resources/application.properties)
+Jika menggunakan Eclipse IDE, dapat run dengan mengaktifkan Boot Dashboard pada view:
         
-        Klik kanan server > start server (apache tomcat)
-        Klik kanan folder TestHibernate > Run as > Run on Server
+       Buka Boot Dashboard > Klik kanan BelajarSpringJPABook > klik (re)start
+
+- Pada database, db_book akan terisi sesuai dengan kodingan pada main file.
+Jika menggunakan VSCode, dapat run menggunakan Terminal:
+
+Update file pom.xml:
+
+        mvn clean
+Compile/install files:
+
+        mvn install
+Run with test:
+
+        mvn test
 
 *Catatan: lengkapi pom.xml dengan dependency yang diperlukan
 
 <table align="center" style="border:none;">
   <tr>
-    <td>(<a href="https://github.com/farlhmd/hacktiv8_java_springboot/tree/main/src/sesi13">Prev Session</a>)</td>
+    <td>(<a href="https://github.com/farlhmd/hacktiv8_java_springboot/tree/main/src/sesi8">Prev Session</a>)</td>
     <td>(<a href="https://github.com/farlhmd/hacktiv8_java_springboot">Back to Main</a>)</td>
-    <td>(<a href="https://github.com/farlhmd/hacktiv8_java_springboot/tree/main/src/sesi15">Next Session</a>)</td>
+    <td>(<a href="https://github.com/farlhmd/hacktiv8_java_springboot/tree/main/src/sesi10">Next Session</a>)</td>
   </tr>
 </table>
     
