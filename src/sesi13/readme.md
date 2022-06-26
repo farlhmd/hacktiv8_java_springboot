@@ -2,7 +2,7 @@
 
 Pada sesi ini dipelajari mengenai:
  #### Hibernate
- Configuration object
+ 	1. Configuration object
 		- db connection (hiberbate.cfg.xml)
 		- class mapping setup
 	
