@@ -1,7 +1,7 @@
 
 # Java Spring Boot Course by Hacktiv8
 
-### Mentored by: [Arif Setiawan](https://www.github.com/octokatherine)
+#### Mentored by: [Arif Setiawan](https://www.github.com/octokatherine)
 ## Requirements
 
 To run this project, you will need to add/install the followings: 
