@@ -14,9 +14,9 @@ Pada sesi ini dipelajari mengenai:
         /Applications/XAMPP/bin/mysql_upgrade
 
 ## Running
-1. Running dilakukan dengan menjalankan server pada Xampp\
-2. Buka pada browser:
-phpmyadmin
+- Running dilakukan dengan menjalankan server pada Xampp\
+- Buka pada browser:
+---
 
         localhost/phpmyadmin
 atau
