@@ -2,7 +2,7 @@
 # Java Spring Boot Sesi 5
 
 Pada sesi ini dipelajari mengenai:\
-    1. Polymorphism
+    1. Polymorphism\
     2. Inheritance
 
 
