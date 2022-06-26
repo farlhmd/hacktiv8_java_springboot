@@ -1,8 +1,13 @@
 # Java Spring Boot Sesi 4
 
 Pada sesi ini dipelajari mengenai:\
-    1. Perulangan menggunakan: for, for.. each, do, do.. while\
-    2. Dengan menggunakan pengulangan, program dapat melakukan executing code yang diinginkan berkali kali.
+    1.Materi Array\
+        - Array dapat berbentuk multidimensi
+        - Untuk mengakses array, dapat dilakukan perulangan.
+    Materi Binary Search Tree (BST) dapat memperoleh data dengan cara:\
+        -PreOrder : Print data, telusur ke kiri, telusur ke kanan
+        -InOrder : Telusur ke kiri, print data, telusur ke kanan
+        -Post Order : Telusur ke kiri, telusur ke kanan, print data 
 
 
 ## Running
@@ -21,11 +26,6 @@ Dari sini akan di generate file .class
     java NamaFile.java
 
 <table align="center" style="border:none;">
-<tr>
-<td></td>
-<td align="center">(<a href="https://github.com/farlhmd/hacktiv8_java_springboot/tree/main/src/sesi3/assignment1">Assignment 1</a>)</td>
-<td></td>
-</tr>
   <tr>
     <td>(<a href="https://github.com/farlhmd/hacktiv8_java_springboot/tree/main/src/sesi2">Prev Session</a>)</td>
     <td>(<a href="https://github.com/farlhmd/hacktiv8_java_springboot">Back to Main</a>)</td>
@@ -35,15 +35,3 @@ Dari sini akan di generate file .class
     
 
 
-
-Sesi 4 Kamis, 16 Juni 2022 (08:00 - 12:00)
-
-Materi Array
-- Array dapat berbentuk multidimensi
-- Untuk mengakses array, dapat dilakukan perulangan.
-
-Materi Binary Search Tree (BST) dapat memperoleh data dengan cara:
-
--PreOrder : Print data, telusur ke kiri, telusur ke kanan
--InOrder : Telusur ke kiri, print data, telusur ke kanan
--Post Order : Telusur ke kiri, telusur ke kanan, print data
