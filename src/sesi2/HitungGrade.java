@@ -1,4 +1,4 @@
-package sesi2;
+package src.sesi2;
 
 import java.util.Scanner;
 

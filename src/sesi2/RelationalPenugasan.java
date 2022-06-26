@@ -1,4 +1,4 @@
-package sesi2;
+package src.sesi2;
 
 public class RelationalPenugasan {
     public static void main(String[] args) {
