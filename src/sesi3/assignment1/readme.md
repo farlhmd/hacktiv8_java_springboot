@@ -33,7 +33,7 @@
 <table align="center" style="border:none;">
     <tr>
     <td></td>
-    <td>(<a href="https://github.com/farlhmd/hacktiv8_java_springboot/tree/main/src/sesi3/session">Session 3</a>)</td>
+    <td align="center">(<a href="https://github.com/farlhmd/hacktiv8_java_springboot/tree/main/src/sesi3/session">Session 3</a>)</td>
     <td></td>
     </tr>
   <tr>
