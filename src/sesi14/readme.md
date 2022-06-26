@@ -1,4 +1,4 @@
-# Java Spring Boot Sesi 13
+# Java Spring Boot Sesi 14
 
 Pada sesi ini dipelajari mengenai:
  #### Hibernate
@@ -65,9 +65,9 @@ Run with test:
 
 <table align="center" style="border:none;">
   <tr>
-    <td>(<a href="https://github.com/farlhmd/hacktiv8_java_springboot/tree/main/src/sesi12">Prev Session</a>)</td>
+    <td>(<a href="https://github.com/farlhmd/hacktiv8_java_springboot/tree/main/src/sesi8">Prev Session</a>)</td>
     <td>(<a href="https://github.com/farlhmd/hacktiv8_java_springboot">Back to Main</a>)</td>
-    <td>(<a href="https://github.com/farlhmd/hacktiv8_java_springboot/tree/main/src/sesi14">Next Session</a>)</td>
+    <td>(<a href="https://github.com/farlhmd/hacktiv8_java_springboot/tree/main/src/sesi10">Next Session</a>)</td>
   </tr>
 </table>
     
