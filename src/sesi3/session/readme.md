@@ -4,7 +4,7 @@
 Pada sesi ini dipelajari mengenai:\
     1. Perulangan menggunakan: for, for.. each, do, do.. while\
     2. Dengan menggunakan pengulangan, program dapat melakukan executing code yang diinginkan berkali kali\
-    3. Pada sesi ini juga dibuat program untuk menampilkan * yang tersusun hinggal membentuk piramida: [PrintBintang.java](https://github.com/farlhmd/hacktiv8_java_springboot/blob/main/src/sesi3/session/PrintBintang.java
+    3. Pada sesi ini juga dibuat program untuk menampilkan * yang tersusun hinggal membentuk piramida: [PrintBintang.java](https://github.com/farlhmd/hacktiv8_java_springboot/blob/main/src/sesi3/session/PrintBintang.java)
 
 
 ## Running
