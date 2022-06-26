@@ -1,76 +1,57 @@
-NoSQL - Mongo DB
+# Java Spring Boot Sesi 11
 
-Pada SQL database seperti MySQL, sebuah database adalah gabungan dari satu atau banyak tabel.
-Sedangkan pada MongoDB, sebuah database adalah gabungan dari satu atau banyak collection.
+Pada sesi ini dipelajari mengenai:
+ 
+ 1. NoSQL - MongoDB\
 
-*Instalasi*
-https://www.mongodb.com/try/download/community?tck=docs_server
+## Installasi
+[MongoDB](https://www.mongodb.com/try/download/community?tck=docs_server)
 
-*JSON vs BSON*
-JSON adalah singkatan dari JavaScript Object Notation, JSON menjadi salah satu format data yang paling banyak
-digunakan untuk transfer data antara browser dan server.
-Pada dasarnya JSON hanya sebuah text yang memiliki format/syntax sebagai berikut:
-	{
-	"key" : "value"
-	}
-BSON adalah singkatan dari Binary JSON, BSON memiliki beberapa keunggulan dibandingkan dengan
-JSON diantaranya tingkat parsing yang lebih cepat dan mendukung lebih banyak tipe data native seperti :
-dates dan binary data.
+## Running
+- Running dilakukan dengan menjalankan server pada Terminal
+- Pada Terminal:
+---
 
-*Syntax*
-Buka terminal dan eksekusi perintah berikut:
-	mongo
-Membuat database
-	use DATABASE_NAME
-Untuk melihat database
-	show dbs
+        mongo
+Menggunakan/ membuat database
 
-Membuat Collection
-	db.createCollection("NAME_COLLECTON")
+        use db_name
+Membuat collection
 
-Menambahkan data
-	db.collection.insertOne()	->	untuk menambahkan document tunggal/single
-	db.collection.insertMany()	->	untuk menambahkan banyak document
+        db.createCollection("collection_name")
+Insert data
 
-Read
-	db.collection.find()
+        db.collection_name.insertOne({ col1_name: "col1_data", col2_name: "col2_data"})
 
-Update
-	db.collection.updateOne(filter, update)	->	ubah satu document
-	db.collection.updateMany(filter, update)	->	ubah banyak document sekaligus sesuai filter
-	db.collection.replaceOne(filter, update)	->	ganti satu document dengan document yang baru
+## Demo
 
-Delete
-	db.collection.deleteOne(filter)	->	hapus satu document
-	db.collection.deleteMany(filter)	->	hapus banyak document sekaligus sesuai filter
+![Contoh](https://github.com/farlhmd/hacktiv8_java_springboot/blob/main/src/sesi11/dinoDB.png)
 
 
 
-*RELASI*
-One to One
-One to Many
-Many to Many
+<table align="center" style="border:none;">
+  <tr>
+    <td>(<a href="https://github.com/farlhmd/hacktiv8_java_springboot/tree/main/src/sesi10">Prev Session</a>)</td>
+    <td>(<a href="https://github.com/farlhmd/hacktiv8_java_springboot">Back to Main</a>)</td>
+    <td>(<a href="https://github.com/farlhmd/hacktiv8_java_springboot/tree/main/src/sesi12">Next Session</a>)</td>
+  </tr>
+</table>
+    
 
-*LOOK UP*
-Lookup adalah sebuah metode yang digunakan untuk menampilkan data seperti find tetapi di lookup ini kita
-dapat menampilkan beberapa tabel untuk di tampilkan (lookup ini bisa berjalan kalau tabelnya sudah
-berrelasi)
-Contohnya :
-	db.collection.aggregate({ $lookup : { from : collection2, localField : “_id”, foreignField : “_id”, as : “join” } })
-Keterangan :
-  Aggregate : untuk mengkelompokan data
-  Lookup : untuk mengabungkan data
-  From : diisi tabel ke 2 yang akan di tampilkan
-  localField : diisi dengan nama data yang ada di tabel pertama (data ini harus data yang nanti sama dengan data yang ada di tabel ke 2)
-  foreignField : sama dengan localField tetapi untuk foreignField diisi dengan nama data yang ada di tabel kedua
-  as : as atau alias dapat diisi bebas karena disini jika nanti data kita mau di tampilkan kita cukup memanggil nama yang sudah di aliaskan saja.
+## Navigation
+
+#### To help you explore these sessions, just click one of these:
+
+1.[ Session 1](https://github.com/farlhmd/hacktiv8_java_springboot/tree/main/src/sesi1) &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp; 7.[ Session 7](https://github.com/farlhmd/hacktiv8_java_springboot/tree/main/src/sesi7) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp; 13.[ Session 13](https://github.com/farlhmd/hacktiv8_java_springboot/tree/main/src/sesi13) &nbsp;&nbsp;|&nbsp;&nbsp; 19.[ Session 19](https://github.com/farlhmd/hacktiv8_java_springboot/tree/main/src/sesi19)\
+2.[ Session 2](https://github.com/farlhmd/hacktiv8_java_springboot/tree/main/src/sesi2) &nbsp;&nbsp;|&nbsp;&nbsp; 8.[ Session 8](https://github.com/farlhmd/hacktiv8_java_springboot/tree/main/src/sesi8) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp; 14.[ Session 14](https://github.com/farlhmd/hacktiv8_java_springboot/tree/main/src/sesi14) &nbsp;&nbsp;|&nbsp;&nbsp; 20.[ Session 20](https://github.com/farlhmd/hacktiv8_java_springboot/tree/main/src/sesi20)\
+3.[ Session 3](https://github.com/farlhmd/hacktiv8_java_springboot/tree/main/src/sesi3) &nbsp;&nbsp;|&nbsp;&nbsp; 9.[ Session 9](https://github.com/farlhmd/hacktiv8_java_springboot/tree/main/src/sesi9) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp; 15.[ Session 15](https://github.com/farlhmd/hacktiv8_java_springboot/tree/main/src/sesi15) &nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;21.[ Session 21](https://github.com/farlhmd/hacktiv8_java_springboot/tree/main/src/sesi21)\
+4.[ Session 4](https://github.com/farlhmd/hacktiv8_java_springboot/tree/main/src/sesi4) &nbsp;&nbsp;|&nbsp;&nbsp; 10.[ Session 10](https://github.com/farlhmd/hacktiv8_java_springboot/tree/main/src/sesi10) &nbsp;&nbsp;|&nbsp;&nbsp; 16.[ Session 16](https://github.com/farlhmd/hacktiv8_java_springboot/tree/main/src/sesi16) &nbsp;&nbsp;|&nbsp;&nbsp; 22.[ Session 22](https://github.com/farlhmd/hacktiv8_java_springboot/tree/main/src/sesi22)\
+5.[ Session 5](https://github.com/farlhmd/hacktiv8_java_springboot/tree/main/src/sesi5) &nbsp;&nbsp;|&nbsp;&nbsp; 11.[ Session 11](https://github.com/farlhmd/hacktiv8_java_springboot/tree/main/src/sesi11) &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;17.[ Session 17](https://github.com/farlhmd/hacktiv8_java_springboot/tree/main/src/sesi17) &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp; \
+6.[ Session 6](https://github.com/farlhmd/hacktiv8_java_springboot/tree/main/src/sesi6) &nbsp;&nbsp;|&nbsp;&nbsp; 12.[ Session 12](https://github.com/farlhmd/hacktiv8_java_springboot/tree/main/src/sesi12) &nbsp;&nbsp;|&nbsp;&nbsp; 18.[ Session 18](https://github.com/farlhmd/hacktiv8_java_springboot/tree/main/src/sesi18) &nbsp;&nbsp;|&nbsp;&nbsp; 
+
+#### Assignments:
+
+1.[ Assignment 1](https://github.com/farlhmd/hacktiv8_java_springboot/tree/main/src/sesi3/assignment1) &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp; 2.[ Assignment 2](https://github.com/farlhmd/hacktiv8_java_springboot/tree/main/src/sesi5/assignment2) &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp; 3.[ Assignment 3](https://github.com/farlhmd/hacktiv8_java_springboot/tree/main/src/sesi17/assignment3)
 
 
-Keterangan :
-createCollection : untuk membuat tabel
-validator : untuk membuat validasi pada json
-$jsonSchema : untuk masuk ke dalam fungsi json
-bsonType : tipe data
-required : data apa saja yang pada saat di tambahkan datanya itu harus diisi
-properties : peraturan – peraturan yang akan dibuat untuk validasi data tersebut
-items : untuk data bertipe array
+    
