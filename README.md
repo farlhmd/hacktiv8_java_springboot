@@ -24,7 +24,7 @@ To run this project, you will need to add/install the followings:
 `IDE (Tested in VSCode and Eclipse 4.23)`
 
 
-Don't forget to add anything to environment variables to start using it.
+Don't forget to add everything to environment variables to start using it.
 
 ## Installation
 
