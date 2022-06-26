@@ -14,8 +14,8 @@ Command untuk membuat folder unit testing: "mvn archetype:generate -DgroupId=com
 
 <table align="center" style="border:none;">
   <tr>
-    <td href="https://github.com/farlhmd/hacktiv8_java_springboot/tree/main/src/sesi7">(Previous Session)</td>
-    <td href="https://github.com/farlhmd/hacktiv8_java_springboot">(Back to Main)</td>
-    <td href="https://github.com/farlhmd/hacktiv8_java_springboot/tree/main/src/sesi9">(Next Session)</td>
+    <td a href="https://github.com/farlhmd/hacktiv8_java_springboot/tree/main/src/sesi7">(Previous Session)</td>
+    <td a href="https://github.com/farlhmd/hacktiv8_java_springboot">(Back to Main)</td>
+    <td a href="https://github.com/farlhmd/hacktiv8_java_springboot/tree/main/src/sesi9">(Next Session)</td>
   </tr>
 </table>
