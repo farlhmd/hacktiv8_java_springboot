@@ -2,7 +2,7 @@
 # Java Spring Boot Sesi 3
 
 Pada sesi ini dibagi 2 menjadi:\
-    1. [Session](https://github.com/farlhmd/hacktiv8_java_springboot/tree/main/src/sesi3/session)
+    1. [Session](https://github.com/farlhmd/hacktiv8_java_springboot/tree/main/src/sesi3/session)\
     2. [Assignment](https://github.com/farlhmd/hacktiv8_java_springboot/tree/main/src/sesi3/assignment1)
 
 ## Running
