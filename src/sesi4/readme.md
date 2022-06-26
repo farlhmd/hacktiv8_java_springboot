@@ -1,14 +1,15 @@
 # Java Spring Boot Sesi 4
 
-Pada sesi ini dipelajari mengenai:\
-    1.Materi Array\
-        - Array dapat berbentuk multidimensi\
-        - Untuk mengakses array, dapat dilakukan perulangan
-
-    2.Materi Binary Search Tree (BST) dapat memperoleh data dengan cara:\
-        -PreOrder : Print data, telusur ke kiri, telusur ke kanan\
-        -InOrder : Telusur ke kiri, print data, telusur ke kanan\
-        -Post Order : Telusur ke kiri, telusur ke kanan, print data\ 
+Pada sesi ini dipelajari mengenai:
+ 
+1. Materi Array\
+    -Array dapat berbentuk multidimensi\
+    -Untuk mengakses array, dapat dilakukan perulangan
+    
+2. Materi Binary Search Tree (BST) dapat memperoleh data dengan cara:\
+    -PreOrder : Print data, telusur ke kiri, telusur ke kanan\
+    -InOrder : Telusur ke kiri, print data, telusur ke kanan\
+    -Post Order : Telusur ke kiri, telusur ke kanan, print data\ 
 
 
 ## Running
