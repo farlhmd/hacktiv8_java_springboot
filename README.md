@@ -46,6 +46,13 @@ For MacOs :
 
 The same goes on MySQL, Maven, etc.
 
+<table>
+  <tr>
+    <td>(Previous Session)</td>
+    <td>(Bact to Main)</td>
+    <td>(Next Session)
+  </tr>
+</table>
 
 <p align="left">(<a href="#top">back to top</a>)</p><p align="center">(<a href="#top">back to top</a>)</p><p align="right">(<a href="#top">back to top</a>)</p>
 
