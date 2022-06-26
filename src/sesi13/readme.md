@@ -1,7 +1,7 @@
 # Java Spring Boot Sesi 13
 
 Pada sesi ini dipelajari mengenai:
- 
+ #### Hibernate
  1. Configuration object
 		- db connection (hiberbate.cfg.xml)
 		- class mapping setup
@@ -35,7 +35,7 @@ Pada sesi ini dipelajari mengenai:
 		- create and execute object oriented criteria queries to retrieve objects
 
 
-Selain itu, juga dilakukan migrasi dari VSCode ke Eclipse dengan command:
+Migrasi dari VSCode ke Eclipse dengan command:
         
          mvn eclipse:eclipse
 
