@@ -46,10 +46,10 @@ For MacOs :
 
 The same goes on MySQL, Maven, etc.
 
-<table>
+<table align="center" margin=0>
   <tr>
     <td>(Previous Session)</td>
-    <td>(Bact to Main)</td>
+    <td>(Back to Main)</td>
     <td>(Next Session)
   </tr>
 </table>
