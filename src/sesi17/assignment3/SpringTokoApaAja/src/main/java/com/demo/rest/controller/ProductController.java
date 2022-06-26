@@ -1,4 +1,4 @@
-package src.sesi17.assignment3.SpringTokoApaAja.src.main.java.com.demo.rest.controller;
+package com.demo.rest.controller;
 
 import java.util.List;
 import java.util.NoSuchElementException;

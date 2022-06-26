@@ -1,4 +1,4 @@
-package src.sesi17.assignment3.SpringTokoApaAja.src.main.java.com.demo.rest.repository;
+package com.demo.rest.repository;
 
 import java.util.List;
 
