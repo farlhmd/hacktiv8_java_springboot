@@ -1,8 +1,7 @@
-# Java Spring Boot Sesi 15
+# Java Spring Boot Sesi 19
 
 Pada sesi ini dipelajari mengenai:
- #### JPA
- Melakukan query SQL dengan java
+ 
 
 Migrasi dari VSCode ke Eclipse dengan command:
         
@@ -37,9 +36,9 @@ Run with test:
 
 <table align="center" style="border:none;">
   <tr>
-    <td>(<a href="https://github.com/farlhmd/hacktiv8_java_springboot/tree/main/src/sesi14">Prev Session</a>)</td>
+    <td>(<a href="https://github.com/farlhmd/hacktiv8_java_springboot/tree/main/src/sesi18">Prev Session</a>)</td>
     <td>(<a href="https://github.com/farlhmd/hacktiv8_java_springboot">Back to Main</a>)</td>
-    <td>(<a href="https://github.com/farlhmd/hacktiv8_java_springboot/tree/main/src/sesi16">Next Session</a>)</td>
+    <td>(<a href="https://github.com/farlhmd/hacktiv8_java_springboot/tree/main/src/sesi20">Next Session</a>)</td>
   </tr>
 </table>
     
