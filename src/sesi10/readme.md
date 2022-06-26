@@ -1,52 +1,39 @@
-# Java Spring Boot Sesi 10
+# Java Spring Boot Sesi 11
 
 Pada sesi ini dipelajari mengenai:
  
- 1. Database\
-    a. Relational Database\
-    b. Non-Relational Database
+ 1. NoSQL - MongoDB\
 
-## Spesifikasi Database
-1. MySQL
-2. Xampp 7.4.29
-*catatan: untuk mengupdate schema database dapat dilakukan dengan cara run:
-       
-        /Applications/XAMPP/bin/mysql_upgrade
+## Installasi
+[MongoDB](https://www.mongodb.com/try/download/community?tck=docs_server)
 
 ## Running
-- Running dilakukan dengan menjalankan server pada Xampp\
-- Buka pada browser:
+- Running dilakukan dengan menjalankan server pada Terminal
+- Pada Terminal:
 ---
 
-        localhost/phpmyadmin
-atau
+        mongo
+Menggunakan/ membuat database
 
-        localhost:8080/phpmyadmin
-atau
+        use db_name
+Membuat collection
 
-        127.0.0.1/phpmyadmin
+        db.createCollection("collection_name")
+Insert data
 
-### Query Umum
-Buat Database:
+        db.collection_name.insertOne({ col1_name: "col1_data", col2_name: "col2_data"})
 
-        CREATE DATABASE db_name
-Buat Table:
+## Demo
 
-        CREATE TABLE tb_name(`col1_name` data_type, `col2_name` data_type)
-Insert Data:
+![Contoh](https://github.com/farlhmd/hacktiv8_java_springboot/blob/main/src/sesi11/dinoDB.png)
 
-        INSERT INTO `tb_name`(`col1_name`, `col2_name`)
-        VALUES (`col1_data`, `col2_data`)
 
-Menampilkan Data:
-
-        SELECT * from tb_name
 
 <table align="center" style="border:none;">
   <tr>
-    <td>(<a href="https://github.com/farlhmd/hacktiv8_java_springboot/tree/main/src/sesi9">Prev Session</a>)</td>
+    <td>(<a href="https://github.com/farlhmd/hacktiv8_java_springboot/tree/main/src/sesi10">Prev Session</a>)</td>
     <td>(<a href="https://github.com/farlhmd/hacktiv8_java_springboot">Back to Main</a>)</td>
-    <td>(<a href="https://github.com/farlhmd/hacktiv8_java_springboot/tree/main/src/sesi11">Next Session</a>)</td>
+    <td>(<a href="https://github.com/farlhmd/hacktiv8_java_springboot/tree/main/src/sesi12">Next Session</a>)</td>
   </tr>
 </table>
     
