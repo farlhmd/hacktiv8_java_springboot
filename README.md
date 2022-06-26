@@ -47,7 +47,7 @@ For MacOs :
 The same goes on MySQL, Maven, etc.
 
 
-<table align="center" style="border:none;">
+<table cellspacing="0" cellpadding="0" align="center" style="border:none;">
   <tr>
     <td>(Previous Session)</td>
     <td></td>
