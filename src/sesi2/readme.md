@@ -3,7 +3,7 @@
 
 Pada sesi ini dipelajari mengenai:
 
-    1. Conditional statement (if, elseif, else, switch case, do, do while)
+    1. Conditional statement (if, elseif, else, switch case)
     2. Mathematical operand (+, -, *, /) 
     3. Dan gabungan dari 2 materi di atas.
     4. Dengan menggabungkan 2 materi tersebut, dapat di buat program sederhana seperti:
