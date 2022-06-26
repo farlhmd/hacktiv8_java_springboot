@@ -1,4 +1,4 @@
-package sesi1;
+package src.sesi1.src;
 
 public class TipeData {
     public static void main(String[] args) {

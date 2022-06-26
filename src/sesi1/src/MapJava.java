@@ -1,4 +1,4 @@
-package sesi1;
+package src.sesi1.src;
 
 import java.util.HashMap;
 

@@ -98,6 +98,8 @@ ON te.ssn = td.ssn
 GROUP BY td.relationship
 
 -- n.  Berapa lama manager tiap department sudah menjabat
+select DATEDIFF( curdate(), mgr_startdate) as lama_bekerja_hari
+from tb_department
 
 -- 0. Lokasi project yang menjadi tempat lebih dari satu department
 SELECT Location FROM tb_branch_dept
