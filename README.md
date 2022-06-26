@@ -47,11 +47,17 @@ For MacOs :
 The same goes on MySQL, Maven, etc.
 
 
-<table align="center" style="border:0px">
+<table align="center" style="border:none;">
   <tr>
     <td>(Previous Session)</td>
     <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
     <td>(Back to Main)</td>
+    <td></td>
+    <td></td>
+    <td></td>
     <td></td>
     <td>(Next Session)</td>
   </tr>
