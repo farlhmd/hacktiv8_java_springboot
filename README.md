@@ -55,7 +55,7 @@ The same goes on MySQL, Maven, etc.
   </tr>
 </table> -->
 
-<p style="text-align:center;">
+<p>
     <span style="float:right;">
        (Previous Session)
     </span>
