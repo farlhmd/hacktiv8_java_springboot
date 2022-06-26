@@ -1,8 +1,8 @@
-# Java Spring Boot Sesi 15
+# Java Spring Boot Sesi 16
 
 Pada sesi ini dipelajari mengenai:
- #### JPA
- Melakukan query SQL dengan java
+#### Spring dan Bootstrap
+#### Menampilkan data list mahasiswa dan menambahkan fitur CRUD didalamnya
 
 Migrasi dari VSCode ke Eclipse dengan command:
         
@@ -13,14 +13,16 @@ Command untuk membuat folder unit testing:
         mvn archetype:generate -DgroupId=com.learning.example -DartifactId=DemoExample -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
 
 ## Running
-- Running dilakukan dengan membuka folder (hacktiv8_java_springboot/src/sesi15/BelajarSpringJPABook)
-- Jalankan server database dan buat database db_book
+- Running dilakukan dengan membuka folder (hacktiv8_java_springboot/src/sesi16/LatihanSpringBootstrap)
+- Jalankan server database dan buat database db_mahasiswa
 - Lakukan konfigurasi pada (src/main/resources/application.properties)
 Jika menggunakan Eclipse IDE, dapat run dengan mengaktifkan Boot Dashboard pada view:
         
-       Buka Boot Dashboard > Klik kanan BelajarSpringJPABook > klik (re)start
+       Buka Boot Dashboard > Klik kanan LatihanSpringBootstrap > klik (re)start
 
-- Pada database, db_book akan terisi sesuai dengan kodingan pada main file.
+- Pada database, db_mahasiswa akan terisi sesuai dengan kodingan pada file .sql di src/main/resources/db
+- Jalankan di browser, ketikkan localhost:8081/index maka akan tampil tabel dengan data mahasiswa
+
 Jika menggunakan VSCode, dapat run menggunakan Terminal:
 
 Update file pom.xml:
@@ -37,9 +39,9 @@ Run with test:
 
 <table align="center" style="border:none;">
   <tr>
-    <td>(<a href="https://github.com/farlhmd/hacktiv8_java_springboot/tree/main/src/sesi14">Prev Session</a>)</td>
+    <td>(<a href="https://github.com/farlhmd/hacktiv8_java_springboot/tree/main/src/sesi15">Prev Session</a>)</td>
     <td>(<a href="https://github.com/farlhmd/hacktiv8_java_springboot">Back to Main</a>)</td>
-    <td>(<a href="https://github.com/farlhmd/hacktiv8_java_springboot/tree/main/src/sesi16">Next Session</a>)</td>
+    <td>(<a href="https://github.com/farlhmd/hacktiv8_java_springboot/tree/main/src/sesi17">Next Session</a>)</td>
   </tr>
 </table>
     
