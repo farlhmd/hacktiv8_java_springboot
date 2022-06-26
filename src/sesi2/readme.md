@@ -8,7 +8,7 @@ Pada sesi ini dipelajari mengenai:
     3. Dan gabungan dari 2 materi di atas.
     4. Dengan menggabungkan 2 materi tersebut, dapat di buat program sederhana seperti:
         a. Menentukan grade dari nilai
-        b. Kasih sederhana
+        b. Kasir sederhana
         c. Dan penentuan pemberian diskon
 
 ## Running
@@ -26,6 +26,13 @@ Dari sini akan di generate file .class
 
     java NamaFile.java
 
+<table align="center" style="border:none;">
+  <tr>
+    <td>(<a href="https://github.com/farlhmd/hacktiv8_java_springboot/tree/main/src/sesi1">Prev Session</a>)</td>
+    <td>(<a href="https://github.com/farlhmd/hacktiv8_java_springboot">Back to Main</a>)</td>
+    <td>(<a href="https://github.com/farlhmd/hacktiv8_java_springboot/tree/main/src/sesi3">Next Session</a>)</td>
+  </tr>
+</table>
     
 
 
