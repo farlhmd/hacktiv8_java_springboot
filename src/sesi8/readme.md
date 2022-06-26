@@ -11,3 +11,11 @@ Pada sesi ini dipelajari bagaimana menggunakan Multithreading dan Synchronized
 
 Selain itu, juga dilakukan migrasi dari VsCode ke Eclipse dengan command: "mvn eclipse:eclipse"
 Command untuk membuat folder unit testing: "mvn archetype:generate -DgroupId=com.learning.thread -DartifactId=DemoThread -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false"
+
+<table align="center" style="border:none;">
+  <tr>
+    <td>(Previous Session)</td>
+    <td>(Back to Main)</td>
+    <td>(Next Session)</td>
+  </tr>
+</table>
