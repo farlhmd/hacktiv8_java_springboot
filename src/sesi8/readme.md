@@ -1,4 +1,6 @@
-# Java Spring Boot Sesi 8
+Sesi 7
+
+# Java Spring Boot Sesi 7
 
 Pada sesi ini dipelajari mengenai:
  
@@ -23,10 +25,16 @@ Jika menggunakan Eclipse IDE, dapat run dengan:
         
         Klik kanan pom.xml > run as > maven clean > maven install > maven test
 
-Jika menggunakan VSCode, dapat merunning menggunakan Terminal:
+Jika menggunakan VSCode, dapat merunning menggunakan Terminal:\
+
+Update file pom.xml:
 
         mvn clean
+Compile/install files:
+
         mvn install
+Run with test:
+
         mvn test
 
 *Catatan: lengkapi pom.xml dengan dependency yang diperlukan
