@@ -16,6 +16,7 @@ Pada sesi ini dipelajari mengenai:
 ## Running
 1. Running dilakukan dengan menjalankan server pada Xampp\
 2. Buka pada browser:
+phpmyadmin
 
         localhost/phpmyadmin
 atau
@@ -23,7 +24,7 @@ atau
         localhost:8080/phpmyadmin
 atau
 
-          127.0.0.1/phpmyadmin
+        127.0.0.1/phpmyadmin
 
 ### Query Umum
 Buat Database:
