@@ -22,7 +22,7 @@ Dari sini akan di generate file .class
 
     java src/sesi2/src/NamaFile
 \
-2. Jika di run dari folder file tersebut(hacktiv8_java_springboot/src/sesi1/src)
+2. Jika di run dari folder file tersebut(hacktiv8_java_springboot/src/sesi2)
 
     java NamaFile.java
 
