@@ -17,9 +17,9 @@ Dari sini akan di generate file .class
 *Catatan: untuk run file.class tersebut ada 2 perbedaan command untuk run\
     1. Jika dari folder parent harus diopen dari main branch (hactiv8_java_springboot) dengan command:
 
-    java src/sesi1/src/NamaFile
+    java src/sesi1/NamaFile
 \
-2. Jika di run dari folder file tersebut(hacktiv8_java_springboot/src/sesi1/src)
+2. Jika di run dari folder file tersebut(hacktiv8_java_springboot/sesi1/src)
 
     java NamaFile.java
 

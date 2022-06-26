@@ -1,4 +1,4 @@
-package src.sesi1.src;
+package src.sesi1;
 
 public class FormatString {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package src.sesi1.src;
+package src.sesi1;
 
 import java.util.LinkedList;
 
