@@ -2,6 +2,7 @@
 
 Pada sesi ini dipelajari mengenai:
 
+- Spring Boot Auth (with JWT)
 
 Migrasi dari VSCode ke Eclipse dengan command:
         

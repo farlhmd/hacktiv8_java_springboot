@@ -2,6 +2,8 @@
 
 Pada sesi ini dipelajari mengenai:
  
+- API Documentation menggunakan Swagger
+- Javadoc
 
 Migrasi dari VSCode ke Eclipse dengan command:
         
