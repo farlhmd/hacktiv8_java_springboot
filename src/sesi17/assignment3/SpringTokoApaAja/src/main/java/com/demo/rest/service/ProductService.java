@@ -6,12 +6,10 @@ import java.util.List;
 import com.demo.rest.entity.Product;
 
 public interface ProductService {
-	List<Product> findAllProducts(); // menampilkan semua product
+	List<Product> findAllProducts();
 
-	List<Product> findAllProductsByName(String name); // mencari product bedasarkan nama
-	// select * from tb_product where name = ?1
-	// select * from tb_product where name = ?1 and harga = ?2
-
+	List<Product> findAllProductsByName(String name); 
+	
 	Product findProductById(Long id);
 
 	Product saveProduct(Product product);

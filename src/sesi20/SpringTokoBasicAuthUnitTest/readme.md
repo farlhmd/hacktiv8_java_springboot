@@ -1,8 +1,15 @@
-# Java Spring Boot Sesi 20
+Nama        : Muhammad Farhan Ilhamdi\
+Kode Peserta: JVSB001ONL014\
+Link Github : [Assignment 3](https://github.com/farlhmd/hacktiv8_java_springboot/tree/main/src/sesi17/assignment3/SpringTokoApaAja)
+
+### Panduan Penggunaan Aplikasi :
 
 Pada sesi ini dipelajari mengenai:
-#### Unit Testing
-*Catatan
+#### Implementasi API pada Spring
+
+## Requirement
+- Postman
+- Spring related dependencies
 Migrasi dari VSCode ke Eclipse dengan command:
         
          mvn eclipse:eclipse
@@ -12,14 +19,21 @@ Command untuk membuat folder unit testing:
         mvn archetype:generate -DgroupId=com.learning.example -DartifactId=DemoExample -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
 
 ## Running
-- Running dilakukan dengan membuka folder (hacktiv8_java_springboot/src/sesi13/BelajarSpringJPABook)
-- Jalankan server database dan buat database db_book
+- Running dilakukan dengan membuka folder (hacktiv8_java_springboot/src/sesi17/assignment3/SpringTokoApaAja)
+- Jalankan server database dan buat database db_products
 - Lakukan konfigurasi pada (src/main/resources/application.properties)
 Jika menggunakan Eclipse IDE, dapat run dengan mengaktifkan Boot Dashboard pada view:
         
-       Buka Boot Dashboard > Klik kanan BelajarSpringJPABook > klik (re)start
+       Buka Boot Dashboard > Klik kanan SpringTokoApaAja > klik (re)start
 
-- Pada database, db_book akan terisi sesuai dengan kodingan pada main file.
+- Pada database, db_products akan terisi sesuai dengan kodingan pada entity
+- Untuk melakukan CRUD dapat membuka Postman dengan metode Get, Post, Put dan Delete
+- Untuk mengakses landing page pada browser:
+
+        localhost:8081/hello
+- Untuk mengakses toko pada browser:
+
+        localhost:8081/market/products
 Jika menggunakan VSCode, dapat run menggunakan Terminal:
 
 Update file pom.xml:
@@ -35,10 +49,15 @@ Run with test:
 *Catatan: lengkapi pom.xml dengan dependency yang diperlukan
 
 <table align="center" style="border:none;">
+<tr>
+<td></td>
+<td align ="center">(<a href="https://github.com/farlhmd/hacktiv8_java_springboot/tree/main/src/sesi17/">Session 17</a>)</td>
+<td></td>
+</tr>
   <tr>
-    <td>(<a href="https://github.com/farlhmd/hacktiv8_java_springboot/tree/main/src/sesi19">Prev Session</a>)</td>
+    <td>(<a href="https://github.com/farlhmd/hacktiv8_java_springboot/tree/main/src/sesi16">Prev Session</a>)</td>
     <td>(<a href="https://github.com/farlhmd/hacktiv8_java_springboot">Back to Main</a>)</td>
-    <td>(<a href="https://github.com/farlhmd/hacktiv8_java_springboot/tree/main/src/sesi21">Next Session</a>)</td>
+    <td>(<a href="https://github.com/farlhmd/hacktiv8_java_springboot/tree/main/src/sesi18">Next Session</a>)</td>
   </tr>
 </table>
     
