@@ -2,6 +2,7 @@ Nama        : Muhammad Farhan Ilhamdi\
 Kode Peserta: JVSB001ONL014\
 Link Github : [Assignment 3](https://github.com/farlhmd/hacktiv8_java_springboot/tree/main/src/sesi17/assignment3/SpringTokoApaAja)
 
+#### Disarankan membuka readme ini dari github: [Assignment 3](https://github.com/farlhmd/hacktiv8_java_springboot/tree/main/src/sesi17/assignment3/SpringTokoApaAja)
 ### Panduan Penggunaan Aplikasi :
 
 Pada sesi ini dipelajari mengenai:
