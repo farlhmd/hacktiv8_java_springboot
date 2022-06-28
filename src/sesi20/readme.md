@@ -1,20 +1,35 @@
 # Java Spring Boot Sesi 20
 
 Pada sesi ini dipelajari mengenai:
-- Unit Testing
-- Spring Security
-*Catatan: Tambahkan dan sesuaikan file pom yang ada pada: [pom.xml](https://codeshare.io/bfispring_sesi20_tambahan_file_pom_farlhmd)
+### Unit Testing
+Link: [Unit Testing](https://github.com/farlhmd/hacktiv8_java_springboot/tree/main/src/sesi20/SpringTokoBasicAuthUnitTest)\
+Unit testing adalah metode yang menggunakan mock data (data palsu) untuk melakukan pengecekan pada suatu block kode untuk mengantisipasi berbagai jenis data.
+#### Contoh Penggunaan
+- Mendeklarasi variable yang akan dilakukan unit testing
 
-Migrasi dari VSCode ke Eclipse dengan command:
-        
-         mvn eclipse:eclipse
+        final Long id = new Random().nextLong();
+		final Product product = TestObjectFactory.createProduct();
+		Mockito.when(productRepository.findById(id)).thenReturn(Optional.of(product));
 
-Command untuk membuat folder unit testing: 
 
-        mvn archetype:generate -DgroupId=com.learning.example -DartifactId=DemoExample -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+		final Product actual = productService.findProductById(id);
+		
+		MatcherAssert.assertThat(actual.getId(), Matchers.equalTo(product.getId()));
+		MatcherAssert.assertThat(actual.getName(), Matchers.equalTo(product.getName()));
+		MatcherAssert.assertThat(actual.getHargaBeli(), Matchers.equalTo(product.getHargaBeli()));
+		MatcherAssert.assertThat(actual.getHargaJual(), Matchers.equalTo(product.getHargaJual()));
+
+
+
+- [Spring Security](https://github.com/farlhmd/hacktiv8_java_springboot/tree/main/src/sesi20/SpringTokoBasicAuth)
+
+
+
+
+
 
 ## Running
-- Running dilakukan dengan membuka folder (hacktiv8_java_springboot/src/sesi13/BelajarSpringJPABook)
+- Running dilakukan dengan membuka folder (hacktiv8_java_springboot/src/sesi20/SpringTokoBasicAuth)
 - Jalankan server database dan buat database db_products
 - Lakukan konfigurasi pada (src/main/resources/application.properties)
 Jika menggunakan Eclipse IDE, dapat run dengan mengaktifkan Boot Dashboard pada view:

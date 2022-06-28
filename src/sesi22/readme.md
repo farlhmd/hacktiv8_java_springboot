@@ -1,15 +1,10 @@
 # Java Spring Boot Sesi 22
 
 Pada sesi ini dipelajari mengenai:
+- Code Coverage
+- App Deployment on Heroku
 
 
-Migrasi dari VSCode ke Eclipse dengan command:
-        
-         mvn eclipse:eclipse
-
-Command untuk membuat folder unit testing: 
-
-        mvn archetype:generate -DgroupId=com.learning.example -DartifactId=DemoExample -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
 
 ## Running
 - Running dilakukan dengan membuka folder (hacktiv8_java_springboot/src/sesi13/BelajarSpringJPABook)
