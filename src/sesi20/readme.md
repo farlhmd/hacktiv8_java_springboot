@@ -49,14 +49,14 @@ Pengetestan authority dapat dilakukan dengan Postman
 - Running Spring Security dilakukan dengan membuka folder (hacktiv8_java_springboot/src/sesi20/SpringTokoBasicAuth)
 - Jalankan server database dan buat database db_products
 - Lakukan konfigurasi pada (src/main/resources/application.properties)
-1. Unit Test
+### 1. Unit Test
 
 Jika menggunakan Eclipse IDE, dapat run dengan:
         
        Pada folder SpringTokoBasicAuthUnitTest > Klik kanan SpringTokoBasicAuthUnitTest > Run as > JUnit Test
 
 Lalu akan muncul lambang berwarna hijau jika test dan kodingan sudah benar, dan merah jika ada yang tidak bagaimana seharusnya.\
-2. Spring Security
+### 2. Spring Security
 
 Jika menggunakan Eclipse IDE, dapat run dengan mengaktifkan Boot Dashboard pada view:
         
