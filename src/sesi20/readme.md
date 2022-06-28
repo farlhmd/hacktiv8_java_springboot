@@ -1,19 +1,20 @@
 # Java Spring Boot Sesi 20
 
 Pada sesi ini dipelajari mengenai:
-### Unit Testing
+## Unit Testing
 Link: [Unit Testing](https://github.com/farlhmd/hacktiv8_java_springboot/tree/main/src/sesi20/SpringTokoBasicAuthUnitTest)\
 Unit testing adalah metode yang menggunakan mock data (data palsu) untuk melakukan pengecekan pada suatu block kode untuk mengantisipasi berbagai jenis data.
 #### Contoh Penggunaan
-- Mendeklarasi variable yang akan dilakukan unit testing
+- Mendeklarasi variable yang akan dilakukan unit testing 
 
         final Long id = new Random().nextLong();
 		final Product product = TestObjectFactory.createProduct();
 		Mockito.when(productRepository.findById(id)).thenReturn(Optional.of(product));
-
+-  Mendeklarasi variable "actual" yang akan dijadikan patokan unit testing
 
 		final Product actual = productService.findProductById(id);
-		
+- Melakukan pengecekan apakah nilai pada variable product(mock) sudah sesuai dengan yang ada pada variable "actual"
+
 		MatcherAssert.assertThat(actual.getId(), Matchers.equalTo(product.getId()));
 		MatcherAssert.assertThat(actual.getName(), Matchers.equalTo(product.getName()));
 		MatcherAssert.assertThat(actual.getHargaBeli(), Matchers.equalTo(product.getHargaBeli()));
@@ -21,22 +22,47 @@ Unit testing adalah metode yang menggunakan mock data (data palsu) untuk melakuk
 
 
 
-- [Spring Security](https://github.com/farlhmd/hacktiv8_java_springboot/tree/main/src/sesi20/SpringTokoBasicAuth)
+## Spring Security
+Link: [Spring Security](https://github.com/farlhmd/hacktiv8_java_springboot/tree/main/src/sesi20/SpringTokoBasicAuth)\
+Pada Spring Security, dipelajari bagaimana dilakukan authentikasi dan authorization pada role user yang telah ditentukan.
 
+#### Contoh Penggunaan
+        http.httpBasic()
+                        .and()
+                                .authorizeRequests()
+                                .antMatchers("/api/index").permitAll()
+                                .antMatchers("/api/profile/**").authenticated()
+                                .antMatchers("/api/products/**").hasRole("ADMIN")
+                                .antMatchers("/api/management/**").hasAnyRole("ADMIN", "MANAGER")
+                                .antMatchers("/api/user/test1").hasAuthority("ACCESS_TEST1")
+                                .antMatchers("/api/user/test2").hasAuthority("ACCESS_TEST2")
+Pada block kode diatas, terdapat beberapa jenis authorization:
+- permitAll digunakan untuk memberikan izin kepada semua user
+- authenticated memberikan izin kepada setiap user yang sudah melakukan authentikasi
+- hasRole dan hasAnyRole memberikan izin kepada user dengan role yang ditentukan
+- hasAuthority memberikan izin spesifik terhadap authority yang dimiliki user 
 
-
-
-
+Pengetestan authority dapat dilakukan dengan Postman
 
 ## Running
-- Running dilakukan dengan membuka folder (hacktiv8_java_springboot/src/sesi20/SpringTokoBasicAuth)
+- Running Unit test dilakukan dengan membuka folder (hacktiv8_java_springboot/src/sesi20/SpringTokoBasicAuthUnitTest)
+- Running Spring Security dilakukan dengan membuka folder (hacktiv8_java_springboot/src/sesi20/SpringTokoBasicAuth)
 - Jalankan server database dan buat database db_products
 - Lakukan konfigurasi pada (src/main/resources/application.properties)
+1. Unit Test
+Jika menggunakan Eclipse IDE, dapat run dengan:
+        
+       Pada folder SpringTokoBasicAuthUnitTest > Klik kanan SpringTokoBasicAuthUnitTest > Run as > JUnit Test
+
+Lalu akan muncul lambang berwarna hijau jika test dan kodingan sudah benar, dan merah jika ada yang tidak bagaimana seharusnya.\
+2. Spring Security
 Jika menggunakan Eclipse IDE, dapat run dengan mengaktifkan Boot Dashboard pada view:
         
-       Buka Boot Dashboard > Klik kanan BelajarSpringJPABook > klik (re)start
+       Buka Boot Dashboard > Klik kanan SpringTokoBasicAuth > klik (re)start
 
-- Pada database, db_book akan terisi sesuai dengan kodingan pada main file.
+- Pada database, db_products akan terisi sesuai dengan kodingan pada main file.
+- Buka Postman, lakukan pemanggilan API dengan domain yang sudah diberikan hak akses.
+
 Jika menggunakan VSCode, dapat run menggunakan Terminal:
 
 Update file pom.xml:
