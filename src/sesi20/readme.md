@@ -55,7 +55,7 @@ Jika menggunakan Eclipse IDE, dapat run dengan:
         
        Pada folder SpringTokoBasicAuthUnitTest > Klik kanan SpringTokoBasicAuthUnitTest > Run as > JUnit Test
 
-Lalu akan muncul lambang berwarna hijau jika test dan kodingan sudah benar, dan merah jika ada yang tidak bagaimana seharusnya.
+Lalu akan tampil lambang berwarna hijau jika test dan kodingan sudah benar, dan merah jika ada yang tidak bagaimana seharusnya.
 ### 2. Spring Security
 
 Jika menggunakan Eclipse IDE, dapat run dengan mengaktifkan Boot Dashboard pada view:
